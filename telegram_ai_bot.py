@@ -1,18 +1,3 @@
-  """
-Simple AI Telegram support bot — FREE version, using Google's Gemini API.
-
-How it works (in plain terms):
-1. Telegram sends us a message when a customer writes to the bot.
-2. We forward that message to Gemini, along with a "business briefing"
-   (BUSINESS_INFO below) so it answers with real facts about the business.
-3. We send Gemini's answer back to the customer on Telegram.
-
-Before running:
-- Set two environment variables (never write secrets directly in code):
-    TELEGRAM_TOKEN   -> the token BotFather gave you
-    GEMINI_API_KEY   -> your free key from aistudio.google.com/app/apikey
-- Install requirements:  pip install -r requirements.txt
-"""
 
 import os
 import logging
